@@ -55,3 +55,19 @@ This simplified example demonstrates the handling of switch commands. Actual RF 
 Demonstration screenshots and an architecture overview will be added.
 
 **Note:** This repository is a technical showcase. It does not contain the complete production configuration, RF transmit codes or private network information.
+
+
+## System architecture
+
+```mermaid
+flowchart TD
+    A["Victron Cerbo GX - Virtual Switch"]
+    B["Node-RED - JavaScript"]
+    C["HTTP API"]
+    D["Sonoff RF Bridge - Tasmota and Portisch"]
+    E["433 MHz RF transmission"]
+    F["3 Smartwave wireless outlets"]
+
+    A --> B --> C --> D --> E --> F
+```
+  
