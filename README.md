@@ -70,4 +70,6 @@ flowchart TD
 
     A --> B --> C --> D --> E --> F
 ```
-  
+  ## Project demonstration
+
+![Victron Home Automation Dashboard](Victron%20Home%20Automation%20Dashboard.png)
